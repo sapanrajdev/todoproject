@@ -1,0 +1,49 @@
+.todo-body{
+    text-align: center;
+}
+
+.dropdown {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgb(83, 152, 155);
+    position: relative;
+    font-size: 18px;
+    width: 10%;
+}
+
+.dropdown:hover{
+  background: rgb(93, 173, 177); 
+  cursor: pointer;
+  }
+
+  .header {
+      background: lightgray;
+      padding: 10px;
+      width: 60%;
+      margin: 10px auto;
+  }
+
+  .flex {
+      display: flex;
+  }
+
+  .align-center {
+    justify-content: center;
+  }
+
+  .domain-selection {
+    margin-right: 10px;
+    align-self: center;
+  }
+
+.todo-item {
+    list-style: none;
+    padding: 10px;
+    border: 1px inset;
+    border-radius: 10px;
+    width: 50%;
+    margin: 10px auto;
+}
